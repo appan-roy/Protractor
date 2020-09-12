@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="2" time="14.101">
- <testsuite name="Calculator Suite" timestamp="2020-09-12T17:52:02" hostname="localhost" time="14.101" errors="0" tests="2" skipped="0" disabled="0" failures="1">
-  <testcase classname="Calculator Suite" name="Validate addition result" time="6.972" />
-  <testcase classname="Calculator Suite" name="Validate subtraction result" time="7.086">
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="13.707">
+ <testsuite name="Calculator Suite" timestamp="2020-09-12T22:53:00" hostname="localhost" time="13.707" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Calculator Suite" name="Validate addition result" time="7.978" />
+  <testcase classname="Calculator Suite" name="Validate subtraction result" time="5.692">
    <failure type="toEqual" message="Expected &apos;12&apos; to equal &apos;2&apos;."><![CDATA[Error: Failed expectation
     at UserContext.<anonymous> (E:\Softwares\My PC Apps\Protractor\Workspace\LearnProtractor\tests\CalculatorTest.spec.js:47:24)
     at C:\Users\APPAN\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
