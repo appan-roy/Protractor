@@ -1,5 +1,6 @@
 // An example configuration file.
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
+var HtmlReporter = require('protractor-beautiful-reporter');
 
 var reporter = new HtmlScreenshotReporter({
   dest: './target/jasmine-results',
@@ -48,6 +49,10 @@ exports.config = {
       savePath: './',
       filePrefix: 'xmlresults'
     }));
+
+    jasmine.getEnv().addReporter(new HtmlReporter({
+      baseDirectory: 'target/beautiful-results/screenshots'
+    }).getJasmine2Reporter());
 
     var fs = require('fs-extra');
 
