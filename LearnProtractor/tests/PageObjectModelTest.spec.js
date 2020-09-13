@@ -1,5 +1,4 @@
 const loginpage = require('../pages/LoginPage')
-const LoginPage = require('../pages/LoginPage')
 const homepage = require('../pages/HomePage')
 const { browser } = require('protractor')
 
@@ -15,7 +14,7 @@ describe('POM Suite', ()=>{
         loginpage.enterUsername2('description')
         loginpage.clickOnLoginButton()
 
-        homepage.verifyLogin("You're logged in!!")
+        homepage.verifyLoginMessage("You're logged in!!")
         homepage.clickOnLogoutLink()
 
     })

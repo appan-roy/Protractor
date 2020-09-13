@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600029595807' stop='1600029608646'>
+    <name>Web Table Handling Suite</name>
+    <title>Web Table Handling Suite</title>
+    <test-cases>
+        <test-case start='1600029603735' status='passed' stop='1600029606553'>
+            <name>Validate product info</name>
+            <title>Validate product info</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600029606556' status='passed' stop='1600029608640'>
+            <name>Delete product</name>
+            <title>Delete product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

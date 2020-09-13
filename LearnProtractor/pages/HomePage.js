@@ -6,7 +6,7 @@ const homePage = function(){
 
     const logoutLink = element(by.css("body > div.jumbotron > div > div > div > p:nth-child(3) > a"))
 
-    this.verifyLogin = function(welcomemsg){
+    this.verifyLoginMessage = function(welcomemsg){
         expect(loginText.getText()).toEqual(welcomemsg)
     }
 
