@@ -1,8 +1,8 @@
 const { browser, element, by } = require("protractor")
 
-describe('Banking Test Suite', ()=>{
+describe('Banking Test Suite', () => {
 
-    beforeAll(()=>{
+    beforeAll(() => {
 
         //maximize browser
         browser.manage().window().maximize()
@@ -15,7 +15,7 @@ describe('Banking Test Suite', ()=>{
 
     })
 
-    it('Validate bank deposit', ()=>{
+    it('Validate bank deposit', () => {
 
         //select name from dropdown
         element(by.model('custId')).element(by.css('option[value="2"]')).click()
@@ -45,7 +45,7 @@ describe('Banking Test Suite', ()=>{
 
     })
 
-    it('Validate valid withdrawal from bank', ()=>{
+    it('Validate valid withdrawal from bank', () => {
 
         //select name from dropdown
         element(by.model('custId')).element(by.css('option[value="2"]')).click()
@@ -75,7 +75,7 @@ describe('Banking Test Suite', ()=>{
 
     })
 
-    it('Validate invalid withdrawal from bank', ()=>{
+    it('Validate invalid withdrawal from bank', () => {
 
         //select name from dropdown
         element(by.model('custId')).element(by.css('option[value="2"]')).click()
@@ -105,7 +105,7 @@ describe('Banking Test Suite', ()=>{
 
     })
 
-    it('Validate transactions data', ()=>{
+    it('Validate transactions data', () => {
 
         //select name from dropdown
         element(by.model('custId')).element(by.css('option[value="2"]')).click()
@@ -121,29 +121,24 @@ describe('Banking Test Suite', ()=>{
         element(by.css('button[ng-class="btnClass1"]')).click()
 
         //find total balance
-        var noOfTxn = element.all(by.xpath(".//table[@class='table table-bordered table-striped']/tbody/tr")).count()
-        console.log('Txn Num : '+noOfTxn);
-        var totalCredit = 0, totalDebit = 0
-        
-        for(var i = 0; i < noOfTxn; i++){
+        element.all(by.repeater('tx in transactions')).count().then(function (noOfTxn) {
 
-            var txnType = element(by.xpath(".//table[@class='table table-bordered table-striped']/tbody/tr["+(i+1)+"]/td[3]")).getText()
-            console.log("Txn type : "+txnType);
+            console.log('Txn count : ' + noOfTxn)
 
-            if(txnType == 'Credit'){
-                var credit = element(by.xpath(".//table[@class='table table-bordered table-striped']/tbody/tr["+(i+1)+"]/td[2]")).getText()
-                console.log("Credit : "+credit);
-                totalCredit += credit
-            }else{
-                var debit = element(by.xpath(".//table[@class='table table-bordered table-striped']/tbody/tr["+(i+1)+"]/td[2]")).getText()
-                console.log("Debit : "+debit);
-                totalDebit += debit
+            var totalCredit = 0, totalDebit = 0
+
+            for (var i = 0; i < noOfTxn; i++) {
+
+                var txnType = element.all(by.repeater('tx in transactions')).get(i).all(by.tagName("td")).get(2).getText()
+
+                console.log("Txn type : " + txnType);
+
             }
 
-        }
+            var totalAccBalance = totalCredit - totalDebit
+            console.log("Total account balance is : " + totalAccBalance)
 
-        var totalAccBalance = totalCredit - totalDebit
-        console.log("Total account balance is : " + totalAccBalance)
+        })
 
         //click on logout button
         element(by.className('btn logout')).click()

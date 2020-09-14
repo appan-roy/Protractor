@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="2" time="12.87">
- <testsuite name="Web Table Handling Suite" timestamp="2020-09-14T02:09:55" hostname="localhost" time="12.87" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Web Table Handling Suite" name="Validate product info" time="2.818" />
-  <testcase classname="Web Table Handling Suite" name="Delete product" time="2.084" />
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="12.682">
+ <testsuite name="Web Elements Handling Suite" timestamp="2020-09-15T01:54:50" hostname="localhost" time="12.682" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Web Elements Handling Suite" name="Verify checkbox operations" time="12.638" />
  </testsuite>
 </testsuites>

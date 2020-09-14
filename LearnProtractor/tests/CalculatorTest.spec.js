@@ -110,7 +110,7 @@ describe('Calculator Suite', () => {
 
     })
 
-    it('Get number of history records', ()=>{
+    it('Validate history records', ()=>{
 
         //fetch number of history records
         const numOfRecords = element.all(by.repeater('result in memory')).count()

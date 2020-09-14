@@ -271,187 +271,20 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
 
     var results = [
     {
-        "description": "Validate bank deposit|Banking Test Suite",
+        "description": "Verify checkbox operations|Web Elements Handling Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "instanceId": 12132,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00ea00d8-00fd-00dd-00f9-00a400a00078.png",
-        "timestamp": 1600026665379,
-        "duration": 11351
-    },
-    {
-        "description": "Validate valid withdrawal from bank|Banking Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 12132,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00a000c4-00e7-00a2-00cc-0034004b0079.png",
-        "timestamp": 1600026678103,
-        "duration": 2919
-    },
-    {
-        "description": "Validate invalid withdrawal from bank|Banking Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 12132,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://www.way2automation.com/angularjs-protractor/banking/account.service.js 33:18 \"Can not perform this transaction\"",
-                "timestamp": 1600026684061,
-                "type": ""
-            }
-        ],
-        "screenShotFile": "003e008d-0036-008c-00f7-002d006e0093.png",
-        "timestamp": 1600026682243,
-        "duration": 2178
-    },
-    {
-        "description": "Validate transactions data|Banking Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 12132,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "009000c4-00b6-00cf-00d2-007e00d200e8.png",
-        "timestamp": 1600026685565,
-        "duration": 2035
-    },
-    {
-        "description": "Validate bank deposit|Banking Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 8988,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "006900e6-000f-00e2-00e8-00d7002c005d.png",
-        "timestamp": 1600027404031,
-        "duration": 4406
-    },
-    {
-        "description": "Validate valid withdrawal from bank|Banking Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 8988,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "0049001f-001e-00d8-00da-0055005f0080.png",
-        "timestamp": 1600027409948,
-        "duration": 2595
-    },
-    {
-        "description": "Validate invalid withdrawal from bank|Banking Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 8988,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://www.way2automation.com/angularjs-protractor/banking/account.service.js 33:18 \"Can not perform this transaction\"",
-                "timestamp": 1600027415631,
-                "type": ""
-            }
-        ],
-        "screenShotFile": "003200bf-0040-0094-00c6-00df006b00de.png",
-        "timestamp": 1600027413795,
-        "duration": 2237
-    },
-    {
-        "description": "Validate transactions data|Banking Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 8988,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00d600e3-007f-0027-00d1-00f700eb0008.png",
-        "timestamp": 1600027417208,
-        "duration": 2014
-    },
-    {
-        "description": "Validate product info|Web Table Handling Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 11312,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "0069000f-0096-008a-003f-00ee00fb001a.png",
-        "timestamp": 1600029603739,
-        "duration": 2816
-    },
-    {
-        "description": "Delete product|Web Table Handling Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 11312,
+        "instanceId": 8984,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.102"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "00760067-00b5-0019-002a-003500f500d4.png",
-        "timestamp": 1600029608254,
-        "duration": 386
+        "screenShotFile": "003e0018-0041-007c-00cd-004300ce00bf.png",
+        "timestamp": 1600115090453,
+        "duration": 12637
     }
 ];
 
