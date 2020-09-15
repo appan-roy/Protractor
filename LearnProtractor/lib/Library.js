@@ -1,3 +1,5 @@
+const excel = require('xlsx')
+
 const library = function(){
 
     //dropdown selection method
@@ -8,6 +10,13 @@ const library = function(){
                     options[index].click();
                 })
         }
+    }
+
+    //excel data reader
+    this.readExcelData = function(filePath, sheetName){
+        let workbook = excel.readFile(filePath)
+        let worksheet = workbook.Sheets[sheetName]
+        return excel.utils.sheet_to_json(worksheet)
     }
 
 }

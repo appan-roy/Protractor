@@ -1,0 +1,34 @@
+[0915/235211.630:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0915/235211.636:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0915/235211.636:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0915/235211.636:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0915/235211.636:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0915/235211.637:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0915/235211.637:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0915/235211.640:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0915/235211.638:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/235211.662:ERROR:exception_snapshot_win.cc(99)] thread ID 5360 not found in process
+[0915/235211.640:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/235211.662:ERROR:exception_snapshot_win.cc(99)] thread ID 9944 not found in process
+[0915/235211.640:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/235211.677:ERROR:exception_snapshot_win.cc(99)] thread ID 8940 not found in process
+[0915/235211.678:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0915/235321.943:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/235321.945:ERROR:exception_snapshot_win.cc(99)] thread ID 8516 not found in process
+[0915/235321.971:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/235321.971:ERROR:exception_snapshot_win.cc(99)] thread ID 2244 not found in process
+[0915/235322.045:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0915/235322.045:ERROR:exception_snapshot_win.cc(99)] thread ID 10108 not found in process
+[0915/235322.101:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0915/235322.102:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0915/235322.102:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0915/235322.102:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0916/013725.489:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0916/013725.505:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0916/013725.506:ERROR:exception_snapshot_win.cc(99)] thread ID 8256 not found in process
+[0916/013725.492:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0916/013725.506:ERROR:exception_snapshot_win.cc(99)] thread ID 9624 not found in process
+[0916/013725.523:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0916/013725.524:ERROR:exception_snapshot_win.cc(99)] thread ID 6752 not found in process
+[0916/013725.530:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0916/013725.530:ERROR:exception_snapshot_win.cc(99)] thread ID 3400 not found in process
