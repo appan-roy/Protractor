@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600356518990' stop='1600356537879'>
+    <name>Banking Test Suite - Customer Activities</name>
+    <title>Banking Test Suite - Customer Activities</title>
+    <test-cases>
+        <test-case start='1600356523424' status='passed' stop='1600356527952'>
+            <name>Validate bank deposit</name>
+            <title>Validate bank deposit</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600356527955' status='passed' stop='1600356531158'>
+            <name>Validate valid withdrawal from bank</name>
+            <title>Validate valid withdrawal from bank</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600356531159' status='passed' stop='1600356533831'>
+            <name>Validate invalid withdrawal from bank</name>
+            <title>Validate invalid withdrawal from bank</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600356533832' status='passed' stop='1600356537872'>
+            <name>Validate transaction history</name>
+            <title>Validate transaction history</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

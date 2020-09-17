@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600357032468' stop='1600357077028'>
+    <name>Web Table Handling Suite</name>
+    <title>Web Table Handling Suite</title>
+    <test-cases>
+        <test-case start='1600357032473' status='passed' stop='1600357041198'>
+            <name>Validate product info and delete a product</name>
+            <title>Validate product info and delete a product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600357041200' status='passed' stop='1600357051472'>
+            <name>Validate user info after adding a user</name>
+            <title>Validate user info after adding a user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600357051473' status='passed' stop='1600357071071'>
+            <name>Validate web table iteration and data elements accessibility</name>
+            <title>Validate web table iteration and data elements accessibility</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600357071072' status='passed' stop='1600357077023'>
+            <name>Validate email and cell number of a particular user</name>
+            <title>Validate email and cell number of a particular user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

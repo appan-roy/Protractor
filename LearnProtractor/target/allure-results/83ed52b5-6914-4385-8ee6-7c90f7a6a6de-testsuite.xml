@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600356570138' stop='1600356573543'>
+    <name>Angular Calculator DDT Suite</name>
+    <title>Angular Calculator DDT Suite</title>
+    <test-cases>
+        <test-case start='1600356573501' status='passed' stop='1600356573525'>
+            <name>Verify result</name>
+            <title>Verify result</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

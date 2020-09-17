@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600356953043' stop='1600356963374'>
+    <name>Multi Form Test Suite</name>
+    <title>Multi Form Test Suite</title>
+    <test-cases>
+        <test-case start='1600356953047' status='passed' stop='1600356963364'>
+            <name>Validate multi form inputs</name>
+            <title>Validate multi form inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
