@@ -4,10 +4,13 @@ const { browser } = require('protractor')
 
 describe('POM Suite', ()=>{
 
-    it('Verify login', ()=>{
-
+    beforeAll(()=>{
         browser.manage().window().maximize()
         browser.get("http://www.way2automation.com/angularjs-protractor/registeration/#/login")
+        browser.manage().timeouts().implicitlyWait(30000)
+    })
+
+    it('Verify login', ()=>{
 
         //login page operations
         loginpage.enterUsername1('angular')

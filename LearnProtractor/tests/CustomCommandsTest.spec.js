@@ -1,4 +1,4 @@
-const init = require('../custom_commands/TestConfig')
+const init = require('../test_config/EnvSettings')
 const loginPage = require('../custom_commands/pages/CuraLoginPage')
 const homePage = require('../custom_commands/pages/CuraHomePage')
 const finalPage = require('../custom_commands/pages/CuraFinalPage')

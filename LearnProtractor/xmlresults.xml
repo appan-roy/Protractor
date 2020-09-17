@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="4" time="50.212">
+ <testsuite name="Web Table Handling Suite" timestamp="2020-09-17T17:05:27" hostname="localhost" time="50.212" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Web Table Handling Suite" name="Validate product info and delete a product" time="10.076" />
+  <testcase classname="Web Table Handling Suite" name="Validate user info after adding a user" time="12.615" />
+  <testcase classname="Web Table Handling Suite" name="Validate web table iteration and data elements accessibility" time="21.248" />
+  <testcase classname="Web Table Handling Suite" name="Validate email and cell number of a particular user" time="6.217" />
+ </testsuite>
+</testsuites>

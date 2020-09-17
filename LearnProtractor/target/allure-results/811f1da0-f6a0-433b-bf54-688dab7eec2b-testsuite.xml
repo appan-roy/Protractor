@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600342374114' stop='1600342383173'>
+    <name>Frames Handling Suite</name>
+    <title>Frames Handling Suite</title>
+    <test-cases>
+        <test-case start='1600342376920' status='passed' stop='1600342377800'>
+            <name>Validate frame 1 object accessibility</name>
+            <title>Validate frame 1 object accessibility</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600342377803' status='passed' stop='1600342379792'>
+            <name>Validate frame 2 object accessibility</name>
+            <title>Validate frame 2 object accessibility</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600342379793' status='passed' stop='1600342383167'>
+            <name>Validate frame 3 object accessibility</name>
+            <title>Validate frame 3 object accessibility</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

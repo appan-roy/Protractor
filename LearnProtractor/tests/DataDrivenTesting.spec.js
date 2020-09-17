@@ -1,5 +1,6 @@
 const xlsx = require('../lib/Library')
-const init = require('../custom_commands/TestConfig')
+const prop = require('../test_config/properties.json')
+const init = require('../test_config/EnvSettings')
 const loginPage = require('../custom_commands/pages/CuraLoginPage')
 const homePage = require('../custom_commands/pages/CuraHomePage')
 const finalPage = require('../custom_commands/pages/CuraFinalPage')
@@ -12,19 +13,19 @@ describe('Data Driven Suite', () => {
         //initialize all settings
         init.initAllSettings()
 
+        //open application
+        init.startApplication(prop.appUrl)
+
     })
 
     beforeEach(() => {
-
-        //open application
-        init.startApplication('https://katalon-demo-cura.herokuapp.com/')
 
         //click on make appointment button
         loginPage.makeAppointment()
 
         //login to application
-        loginPage.enterUsername('John Doe')
-        loginPage.enterPassword('ThisIsNotAPassword')
+        loginPage.enterUsername(prop.username)
+        loginPage.enterPassword(prop.password)
         loginPage.clickOnLoginButton()
 
     })

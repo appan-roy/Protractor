@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600342393019' stop='1600342432186'>
+    <name>Mouse Actions Suite</name>
+    <title>Mouse Actions Suite</title>
+    <test-cases>
+        <test-case start='1600342393026' status='passed' stop='1600342410953'>
+            <name>Verify mouse hover</name>
+            <title>Verify mouse hover</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600342410955' status='passed' stop='1600342417325'>
+            <name>Verify double click</name>
+            <title>Verify double click</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1600342417326' status='pending' stop='1600342417334'>
+            <name>Verify right click</name>
+            <title>Verify right click</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1600342417335' status='passed' stop='1600342432179'>
+            <name>Verify drag and drop</name>
+            <title>Verify drag and drop</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

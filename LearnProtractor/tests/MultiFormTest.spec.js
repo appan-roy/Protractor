@@ -20,7 +20,7 @@ describe('Multi Form Test Suite', ()=>{
         element(by.className('btn btn-block btn-info')).click()
 
         //click on i like xbox radio button
-        element(by.model('formData.type')).click()
+        element.all(by.css('input[type="radio"]')).first().click()
 
         //click on next section button
         element(by.className('btn btn-block btn-info')).click()

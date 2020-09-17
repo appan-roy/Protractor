@@ -1,4 +1,4 @@
-const { browser, element, by } = require("protractor")
+const { browser, element, by, protractor } = require("protractor")
 
 describe('Mouse Actions Suite', ()=>{
 
@@ -36,7 +36,8 @@ describe('Mouse Actions Suite', ()=>{
 
     })
 
-    it('Verify right click', ()=>{
+    //disable this test with xit
+    xit('Verify right click', ()=>{
 
         browser.waitForAngularEnabled(false)
         browser.manage().window().maximize()
@@ -54,6 +55,7 @@ describe('Mouse Actions Suite', ()=>{
 
         browser.manage().window().maximize()
         browser.get('https://codef0rmer.github.io/angular-dragdrop/#!/')
+        browser.sleep(10000)
 
         //capture source and destination elements for drag and drop operation
         let src = element(by.model('list1'))

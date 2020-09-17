@@ -14,8 +14,6 @@ describe('Non Angular JS Application Suite', ()=>{
         element(by.id('txtPassword')).clear().sendKeys('admin123')
         element(by.id('btnLogin')).click()
 
-        console.log(element(by.css('#menu_dashboard_index > b')).getText()+" is present")
-
         element(by.id('welcome')).click()
         element(by.xpath('//*[@id="welcome-menu"]/ul/li[3]/a')).click()
 

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "allure-commandline": "^2.13.0",
+    "exceljs": "^4.1.1",
     "jasmine": "^3.6.1",
     "jasmine-allure-reporter": "^1.0.2",
     "protractor": "^7.0.0"

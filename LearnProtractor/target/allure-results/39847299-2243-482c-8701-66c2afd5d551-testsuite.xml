@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1600342154169' stop='1600342169285'>
+    <name>CURA Healthcare Service - Book Appointment</name>
+    <title>CURA Healthcare Service - Book Appointment</title>
+    <test-cases>
+        <test-case start='1600342154181' status='passed' stop='1600342169276'>
+            <name>Validate appointment in Seoul CURA Healthcare Center</name>
+            <title>Validate appointment in Seoul CURA Healthcare Center</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

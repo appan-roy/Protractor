@@ -12,7 +12,8 @@ exports.config = {
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'chrome',
+    shardTestFiles: true
   },
 
   // Framework to use. Jasmine is recommended.
@@ -20,7 +21,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['../tests/DataDrivenTesting.spec.js'],
+  specs: ['../tests/*.spec.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
