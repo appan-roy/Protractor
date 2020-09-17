@@ -1,0 +1,11 @@
+{
+    "firstName": "Chirag",
+    "lastName": "Verma",
+    "mobileNo": 9865328031,
+    "id": 11,
+    "subjects": [
+        "Maths",
+        "Computer Application",
+        "Physics"
+    ]
+}

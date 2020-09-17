@@ -1,0 +1,16 @@
+{
+  "name": "protractorapitesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Appan",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "protractor-api-resource": "^1.0.3",
+    "protractor-beautiful-reporter": "^1.3.6"
+  }
+}
