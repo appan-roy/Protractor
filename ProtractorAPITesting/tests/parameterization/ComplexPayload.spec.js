@@ -1,7 +1,7 @@
 const param = require('../../test_data/complex.json')
 const apiResource = require("protractor-api-resource").ProtractorApiResource
 
-describe("POST Suite", function () {
+describe("Complex Payload Suite", function () {
 
     var apiClient, serviceEnpoints = {
         getRequest: {

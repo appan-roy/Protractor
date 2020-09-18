@@ -271,304 +271,65 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
 
     var results = [
     {
-        "description": "Get a particular user|Local API Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 3888,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "005a0020-00b5-000c-007b-00a1006f00d5.png",
-        "timestamp": 1600369447009,
-        "duration": 104
-    },
-    {
-        "description": "Create a user - POST|Local API Test Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 7176,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00890001-0059-0089-000f-00bf001100a9.png",
-        "timestamp": 1600369947775,
-        "duration": 280
-    },
-    {
-        "description": "Get a particular user - GET|Local API Test Suite",
+        "description": "Validate data driven user creation|Data Driven POST Suite",
         "passed": false,
-        "pending": true,
+        "pending": false,
         "os": "Windows",
-        "instanceId": 7176,
+        "instanceId": 9524,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.102"
         },
-        "message": "Pending",
+        "message": [
+            "Expected $.firstName = 'Paul' to equal 'David'.\nExpected $.lastName = 'Keres' to equal 'Bronstein'.\nExpected $.fideRating = 2741 to equal 2659.\nExpected $.id = 21 to equal 25.",
+            "Expected 'Paul' to equal undefined.",
+            "Expected 'Keres' to equal undefined.",
+            "Expected 2741 to equal undefined.",
+            "Expected 21 to equal 26."
+        ],
+        "trace": [
+            "Error: Failed expectation\n    at E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\tests\\datadriventesting\\CreateUsersDDT.spec.js:60:40\n    at tryCatcher (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n    at Promise._settlePromise (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n    at Promise._settlePromise0 (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n    at Promise._settlePromises (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n    at _drainQueueStep (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n    at _drainQueue (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n    at Async._drainQueues (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n    at processImmediate (internal/timers.js:439:21)",
+            "Error: Failed expectation\n    at E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\tests\\datadriventesting\\CreateUsersDDT.spec.js:63:50\n    at tryCatcher (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n    at Promise._settlePromise (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n    at Promise._settlePromise0 (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n    at Promise._settlePromises (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n    at _drainQueueStep (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n    at _drainQueue (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n    at Async._drainQueues (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n    at processImmediate (internal/timers.js:439:21)",
+            "Error: Failed expectation\n    at E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\tests\\datadriventesting\\CreateUsersDDT.spec.js:64:49\n    at tryCatcher (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n    at Promise._settlePromise (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n    at Promise._settlePromise0 (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n    at Promise._settlePromises (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n    at _drainQueueStep (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n    at _drainQueue (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n    at Async._drainQueues (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n    at processImmediate (internal/timers.js:439:21)",
+            "Error: Failed expectation\n    at E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\tests\\datadriventesting\\CreateUsersDDT.spec.js:65:51\n    at tryCatcher (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n    at Promise._settlePromise (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n    at Promise._settlePromise0 (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n    at Promise._settlePromises (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n    at _drainQueueStep (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n    at _drainQueue (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n    at Async._drainQueues (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n    at processImmediate (internal/timers.js:439:21)",
+            "Error: Failed expectation\n    at E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\tests\\datadriventesting\\CreateUsersDDT.spec.js:66:43\n    at tryCatcher (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:547:31)\n    at Promise._settlePromise (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:604:18)\n    at Promise._settlePromise0 (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:649:10)\n    at Promise._settlePromises (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\promise.js:729:18)\n    at _drainQueueStep (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:93:12)\n    at _drainQueue (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:86:9)\n    at Async._drainQueues (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:102:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (E:\\Softwares\\My PC Apps\\Protractor\\Workspace\\ProtractorAPITesting\\node_modules\\bluebird\\js\\release\\async.js:15:14)\n    at processImmediate (internal/timers.js:439:21)"
+        ],
         "browserLogs": [],
-        "screenShotFile": "004300bd-00a8-0090-0001-008400ca005c.png",
-        "timestamp": 1600369948607,
-        "duration": 0
+        "screenShotFile": "00e9007f-00f2-0085-0082-00a500910044.png",
+        "timestamp": 1600412548118,
+        "duration": 154
     },
     {
-        "description": "Update a user - PUT|Local API Test Suite",
+        "description": "Validate data driven user creation|Data Driven POST Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "instanceId": 11244,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "008c0064-00e6-0045-00ea-004700e30017.png",
-        "timestamp": 1600370642913,
-        "duration": 115
-    },
-    {
-        "description": "Get a particular user - GET|Local API Test Suite",
-        "passed": false,
-        "pending": true,
-        "os": "Windows",
-        "instanceId": 11244,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Pending",
-        "browserLogs": [],
-        "screenShotFile": "002c0081-0012-0029-00e6-004100c400f2.png",
-        "timestamp": 1600370643575,
-        "duration": 0
-    },
-    {
-        "description": "Create a user - POST|Local API Test Suite",
-        "passed": false,
-        "pending": true,
-        "os": "Windows",
-        "instanceId": 11244,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Pending",
-        "browserLogs": [],
-        "screenShotFile": "008b0016-0039-007b-00a4-00d700b40042.png",
-        "timestamp": 1600370643631,
-        "duration": 0
-    },
-    {
-        "description": "Partially update a user|PATCH Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 11076,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00650000-0015-0081-007a-00e800370052.png",
-        "timestamp": 1600371386555,
-        "duration": 121
-    },
-    {
-        "description": "Delete a user|DELETE Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 7700,
+        "instanceId": 3700,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.102"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "00e400b2-00d5-0068-001c-0016006800d7.png",
-        "timestamp": 1600371883981,
-        "duration": 87
+        "screenShotFile": "00700085-00bb-00e0-00ab-0001003a00b6.png",
+        "timestamp": 1600413531258,
+        "duration": 53
     },
     {
-        "description": "Create a user|POST Suite",
+        "description": "Validate data driven user creation|Data Driven POST Suite",
         "passed": true,
         "pending": false,
         "os": "Windows",
-        "instanceId": 10584,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "001f0029-00b1-00ba-0048-008e00610082.png",
-        "timestamp": 1600371949054,
-        "duration": 85
-    },
-    {
-        "description": "Delete a user|DELETE Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 3804,
+        "instanceId": 3884,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.102"
         },
         "message": "Passed",
         "browserLogs": [],
-        "screenShotFile": "005f0081-0026-0098-00cc-00d5009a008f.png",
-        "timestamp": 1600371957343,
-        "duration": 65
-    },
-    {
-        "description": "Get a particular user|GET Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 9968,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00110078-00ff-008d-001b-00da00a9006a.png",
-        "timestamp": 1600371965772,
-        "duration": 80
-    },
-    {
-        "description": "Get a particular user|GET Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 10432,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00030060-00f4-0019-0013-0042008400f7.png",
-        "timestamp": 1600372087568,
-        "duration": 93
-    },
-    {
-        "description": "Create a user|POST Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 1452,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00010077-00b4-00d6-0049-00a20061008e.png",
-        "timestamp": 1600372114775,
-        "duration": 137
-    },
-    {
-        "description": "Update a user|PUT Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 6648,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00860053-0056-0049-0052-00d00035008e.png",
-        "timestamp": 1600372164433,
-        "duration": 115
-    },
-    {
-        "description": "Partially update a user|PATCH Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 7832,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00c1006b-00b5-00fe-00ab-00a000d90049.png",
-        "timestamp": 1600372198487,
-        "duration": 103
-    },
-    {
-        "description": "Delete a user|DELETE Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 5916,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed",
-        "browserLogs": [],
-        "screenShotFile": "00ed0079-002a-0083-00e3-001f00ad0064.png",
-        "timestamp": 1600372232666,
-        "duration": 80
-    },
-    {
-        "description": "Create a user|POST Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 4440,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00d700b1-009c-009f-0088-0063002d004a.png",
-        "timestamp": 1600373744357,
-        "duration": 131
-    },
-    {
-        "description": "Create a user|POST Suite",
-        "passed": true,
-        "pending": false,
-        "os": "Windows",
-        "instanceId": 7512,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.102"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "009e00e8-0088-0017-0093-004000380002.png",
-        "timestamp": 1600374582269,
-        "duration": 143
+        "screenShotFile": "00fe00fb-00d2-00c9-003d-00f100fc0054.png",
+        "timestamp": 1600414899111,
+        "duration": 54
     }
 ];
 

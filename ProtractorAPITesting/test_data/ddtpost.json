@@ -1,0 +1,5 @@
+{
+    "firstName": ["Mikhail", "Paul", "Siegbert", "Miguel", "David"],
+    "lastName": ["Chigorin", "Keres", "Tarrasch", "Najdorf", "Bronstein"],
+    "fideRating": [2834, 2741, 2676, 2753, 2659]
+}
